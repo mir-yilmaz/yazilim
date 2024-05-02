@@ -1,3 +1,3 @@
 FROM openjdk:21
-ADD target/odev2.jar odev2.jar
-ENTRYPOINT ["java","-jar","/odev2.jar"]
+ADD target/yazilim.jar yazilim.jar
+ENTRYPOINT ["java","-jar","/yazilim.jar"]
